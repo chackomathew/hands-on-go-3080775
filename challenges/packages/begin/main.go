@@ -16,4 +16,5 @@ func getRandomProverb() (proverb string) {
 func main() {
 	// print the result of calling your getRandomProverb function
 	fmt.Println(getRandomProverb())
+	fmt.Println(proverbs.Random())
 }
